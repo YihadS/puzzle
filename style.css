@@ -161,8 +161,14 @@ margin-top: 20px;
 .columna{
    width: 100%;
   }
+	html{
+	   overflow-y: visible;
+	  overflow-x: hidden;
+	}
   body{
    overflow-y: visible;
+	  overflow-x: hidden;
+	  
 	  background: #FF8000 !important;
 	  background-image: none !important:
   }
