@@ -159,6 +159,22 @@ margin-top: 20px;
 
 }
 
+.audio{
+   position: absolute;
+   left: 30px;
+   top: 580px;
+}
+
+.audio button{
+   padding: 15px;
+   border-radius: 50px;
+}
+
+#reproducir2{
+   display: none;
+}
+
+
 @media (max-width: 600px) {
 .columna{
    width: 100%;
