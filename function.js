@@ -53,6 +53,8 @@ var c25 = document.getElementById('c25');
 /*Final de elementos y inicio del drag & drop*/
 
 var cancion1 = document.getElementById('cancion1');
+var reproducir1 = document.getElementById('reproducir');
+var reproducir2 = document.getElementById('reproducir2');
 
 function allowDrop(ev) {
   ev.preventDefault();
@@ -489,16 +491,12 @@ Swal.fire({
 },1);
 
 function reproducir(){
-  var reproducir1 = document.getElementById('reproducir1');
-  var reproducir2 = document.getElementById('reproducir2');
   cancion1.play();
   reproducir1.style.display="none";
   reproducir2.style.display="block";
 }
 
 function mute(){
-  var reproducir1 = document.getElementById('reproducir1');
-  var reproducir2 = document.getElementById('reproducir2');
   cancion1.pause();
   reproducir2.style.display="none";
   reproducir1.style.display="block";
