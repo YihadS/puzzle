@@ -56,6 +56,8 @@ var cancion1 = document.getElementById('cancion1');
 var reproducir1 = document.getElementById('reproducir');
 var reproducir2 = document.getElementById('reproducir2');
 
+cancion1.volume = 0.5;
+
 function allowDrop(ev) {
   ev.preventDefault();
 }
